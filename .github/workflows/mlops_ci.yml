@@ -25,5 +25,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Exécution des tests unitaires et d'intégration (Pytest)
-        run: |
-          pytest -v tests/
+        run: python -m pytest -v tests/
