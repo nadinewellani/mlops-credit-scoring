@@ -5,8 +5,8 @@ data:
 
 model:
   type: "RandomForestClassifier"
-  n_estimators: 250
-  max_depth: 12
+  n_estimators: 200
+  max_depth: 25
   min_samples_split: 5
   class_weight: "balanced"
 
